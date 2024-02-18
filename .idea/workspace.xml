@@ -5,7 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e5d4b27-a1a6-4ea3-8471-3e61220bde94" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/interfaces/TaxCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/interfaces/TaxCalculator2018.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/interfaces/TaxCalculator2019.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/interfaces/TaxReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/mytube/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/mytube/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/mytube/Video.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/mytube/VideoDatabase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/mytube/VideoDatabaseImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/mytube/VideoEncoder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/mytube/VideoEncoderImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/mytube/VideoProcessor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/basix/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/basix/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +30,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -39,9 +54,15 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/home/k/Code/Java/JavaBasix/src/main/java/org/basix/Main.java"
+    "onboarding.tips.debug.path": "/home/k/Code/Java/JavaBasix/src/main/java/org/basix/Main.java",
+    "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="org.basix.mytube" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
