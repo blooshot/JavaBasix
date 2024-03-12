@@ -5,20 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e5d4b27-a1a6-4ea3-8471-3e61220bde94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/interfaces/TaxCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/interfaces/TaxCalculator2018.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/interfaces/TaxCalculator2019.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/interfaces/TaxReport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/mytube/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/mytube/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/mytube/Video.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/mytube/VideoDatabase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/mytube/VideoDatabaseImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/mytube/VideoEncoder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/mytube/VideoEncoderImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/mytube/VideoProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/Library/Books.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/Library/CommandBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/Library/CrudTools.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/Library/DateTimek.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/Library/Ledger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/Library/ScannerKaHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/Library/ServicerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/Library/UserDeserializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/Library/Users.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/concurrency/DownloadFileTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/concurrency/DownloadStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/concurrency/ThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/executor/CompletableFutureDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/executor/ExecutorDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/executor/LongTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/executor/MailService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/basix/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/basix/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -29,17 +33,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2cWFzEFpz3nePHrTlZJsxtMqVGg" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -60,8 +64,29 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="org.basix.Library" />
       <recent name="org.basix.mytube" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.basix.Main" />
+      <module name="JavaBasix" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.basix.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -80,5 +105,21 @@
       <updated>1708219690855</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/basix/Main.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/basix/Library/UserDeserializer.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
