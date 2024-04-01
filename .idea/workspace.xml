@@ -5,25 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e5d4b27-a1a6-4ea3-8471-3e61220bde94" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/Library/Books.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/Library/CommandBase.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/Library/CrudTools.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/Library/DateTimek.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/Library/Ledger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/Library/ScannerKaHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/Library/ServicerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/Library/UserDeserializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/Library/Users.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/concurrency/DownloadFileTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/concurrency/DownloadStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/concurrency/ThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/executor/CompletableFutureDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/executor/ExecutorDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/executor/LongTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/executor/MailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/Collections/CollectionsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/Collections/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/Collections/EmailComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/Collections/MyGenericList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/executor/Qoute.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/generics/GenericList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/generics/Instructor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/generics/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/generics/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/generics/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/lambdas/ConsolePrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/lambdas/LambdaDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/lambdas/Printer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/streams/Genre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/streams/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/basix/streams/StreamsDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/basix/Library/UserDeserializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/basix/Library/UserDeserializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/basix/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/basix/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/basix/executor/CompletableFutureDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/basix/executor/CompletableFutureDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/basix/executor/LongTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/basix/executor/LongTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +37,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -50,18 +53,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Debug",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/home/k/Code/Java/JavaBasix/src/main/java/org/basix/Main.java",
-    "run.code.analysis.last.selected.profile": "pProject Default"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/k/Code/Java/JavaBasix/src/main/java/org/basix/Main.java&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="org.basix.Library" />
@@ -109,11 +112,6 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/org/basix/Main.java</url>
-          <line>40</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/org/basix/Library/UserDeserializer.java</url>
           <line>60</line>

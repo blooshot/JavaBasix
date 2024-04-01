@@ -59,6 +59,6 @@ public class UserDeserializer extends JsonDeserializer<String> {
     @Override
     public String deserialize(JsonParser jsonParser, DeserializationContext deserializationContext) throws IOException, JacksonException {
         String colorString = jsonParser.getText().toLowerCase();
-        return null;
+        return colorString;
     }
 }
